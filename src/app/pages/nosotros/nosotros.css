@@ -1,0 +1,106 @@
+.nosotros-section {
+  background-color: #f8f9fa;
+  min-height: 80vh;
+}
+
+.nosotros-section h1 {
+  color: #0d6efd;
+}
+
+.nosotros-section h2 {
+  color: #212529;
+}
+
+.nosotros-section h3 {
+  color: #0d6efd;
+}
+
+.nosotros-section .card {
+  border-radius: 15px;
+}
+
+.objetivo {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+
+.objetivo h5 {
+  color: #0d6efd;
+}
+
+.nosotros-section p {
+  line-height: 1.7;
+}
+
+
+
+.nosotros-header {
+  background: linear-gradient(135deg, #0d6efd, #4dabf7);
+  color: white;
+  padding: 70px 20px;
+}
+
+.nosotros-header h1 {
+  font-size: 3rem;
+}
+
+.nosotros-header p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.valores-section {
+  background-color: #f8f9fa;
+}
+
+.valor-card {
+  background: white;
+  padding: 35px 25px;
+  border-radius: 15px;
+  height: 100%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.valor-card:hover {
+  transform: translateY(-8px);
+}
+
+.icono {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.valor-card h4 {
+  color: #0d6efd;
+}
+
+.area-card {
+  padding: 30px 25px;
+  border-radius: 15px;
+  height: 100%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  background: white;
+  transition: transform 0.3s ease;
+}
+
+.area-card:hover {
+  transform: translateY(-8px);
+}
+
+.area-card h3 {
+  font-size: 45px;
+}
+
+.matematica {
+  border-top: 5px solid #0d6efd;
+}
+
+.espanol {
+  border-top: 5px solid #dc3545;
+}
+
+.ingles {
+  border-top: 5px solid #198754;
+}

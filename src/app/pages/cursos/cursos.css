@@ -1,0 +1,180 @@
+.cursos-section {
+  background-color: #f8f9fa;
+  min-height: 80vh;
+}
+
+/* Título principal */
+.cursos-section h1 {
+  color: #0d6efd;
+  font-size: 2.5rem;
+}
+
+.cursos-section .lead {
+  font-size: 1.2rem;
+}
+
+/* Tarjetas */
+.curso-card {
+  border: none;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.curso-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Iconos */
+.curso-icon {
+  height: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 70px;
+}
+
+/* Colores de cada curso */
+.matematicas {
+  background-color: #e7f1ff;
+}
+
+.espanol {
+  background-color: #ffe7e7;
+}
+
+.ingles {
+  background-color: #e5f8ed;
+}
+
+/* Títulos de las tarjetas */
+.curso-card h3 {
+  margin-bottom: 15px;
+}
+
+.curso-card h5 {
+  margin-top: 20px;
+}
+
+/* Lista */
+.curso-card ul {
+  line-height: 2;
+}
+
+/* Botones */
+.curso-card .btn {
+  min-width: 140px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+/* Mensaje final */
+.cursos-section .mt-5 h3 {
+  color: #0d6efd;
+}
+
+
+.cursos-header {
+  background: linear-gradient(135deg, #0d6efd, #4dabf7);
+  color: white;
+  padding: 70px 20px;
+}
+
+.cursos-header h1 {
+  font-size: 3rem;
+}
+
+.cursos-header p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.curso-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  height: 100%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.curso-card:hover {
+  transform: translateY(-8px);
+}
+
+.curso-icon {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.curso-card h3 {
+  color: #0d6efd;
+}
+
+.curso-card p {
+  line-height: 1.7;
+}
+
+.curso-card li {
+  margin-bottom: 8px;
+}
+
+.curso-card .btn {
+  width: 100%;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.espanol-icon {
+  color: #dc3545;
+}
+
+.ingles-icon {
+  color: #198754;
+}
+
+.beneficios-section {
+  background-color: #f8f9fa;
+}
+
+.beneficio {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  height: 100%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+.beneficio:first-letter {
+  font-size: 40px;
+}
+
+
+
+
+
+
+.curso-detalle {
+  background-color: #f8f9fa;
+  scroll-margin-top: 80px;
+}
+
+.detalle-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  height: 100%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.detalle-card h4 {
+  color: #0d6efd;
+}
+
+.detalle-card p {
+  line-height: 1.7;
+}
