@@ -1,0 +1,26 @@
+<main class="dashboard">
+  <header class="topbar">
+    <a routerLink="/" class="brand">📚 Aprendiendo juntos</a>
+    <a routerLink="/login" class="logout">Salir</a>
+  </header>
+  <section class="welcome">
+    <p class="eyebrow">ESPACIO DE ENSEÑANZA</p>
+    <h1>¡Bienvenido, docente! 👋</h1>
+    <p>Desde aquí podrás organizar tus cursos y acompañar el progreso de tus estudiantes.</p>
+  </section>
+  <section class="stats">
+    <article><span>📚</span><strong>0</strong><small>Cursos creados</small></article>
+    <article><span>👩‍🎓</span><strong>0</strong><small>Estudiantes inscritos</small></article>
+    <article><span>📝</span><strong>0</strong><small>Actividades por revisar</small></article>
+  </section>
+  <section class="tools">
+    <p class="eyebrow">GESTIÓN ACADÉMICA</p><h2>Herramientas del docente</h2>
+    <div class="tool-grid">
+      <article class="tool-card" *ngFor="let item of herramientas">
+        <span>{{ item.icono }}</span><h3>{{ item.titulo }}</h3><p>{{ item.descripcion }}</p>
+        <button type="button" disabled>Próximamente</button>
+      </article>
+    </div>
+  </section>
+  <p class="footnote">Enseñar es acompañar cada paso del aprendizaje.</p>
+</main>
