@@ -1,0 +1,30 @@
+<main class="dashboard">
+  <header class="topbar">
+    <a routerLink="/" class="brand">📚 Aprendiendo juntos</a>
+    <a routerLink="/login" class="logout">Salir</a>
+  </header>
+  <section class="welcome">
+    <p class="eyebrow">MI ESPACIO DE APRENDIZAJE</p>
+    <h1>¡Hola, estudiante! 👋</h1>
+    <p>Este es tu espacio para aprender, practicar y descubrir cosas nuevas.</p>
+  </section>
+  <section class="stats">
+    <article><span>📚</span><strong>3</strong><small>Cursos disponibles</small></article>
+    <article><span>✏️</span><strong>0</strong><small>Actividades pendientes</small></article>
+    <article><span>🏅</span><strong>0</strong><small>Evaluaciones realizadas</small></article>
+  </section>
+  <section class="courses">
+    <div class="section-heading"><div><p class="eyebrow">SIGUE APRENDIENDO</p><h2>Mis cursos</h2></div><a routerLink="/cursos">Explorar cursos</a></div>
+    <div class="course-grid">
+      <article class="course-card" *ngFor="let curso of cursos">
+        <div class="course-icon">{{ curso.icono }}</div>
+        <h3>{{ curso.nombre }}</h3>
+        <p>{{ curso.detalle }}</p>
+        <div class="progress-label"><span>Mi progreso</span><strong>{{ curso.progreso }}%</strong></div>
+        <div class="progress-track"><span [style.width.%]="curso.progreso"></span></div>
+        <button type="button" disabled>Próximamente</button>
+      </article>
+    </div>
+  </section>
+  <p class="footnote">¡Cada pequeño paso cuenta! Sigue aprendiendo a tu ritmo.</p>
+</main>
